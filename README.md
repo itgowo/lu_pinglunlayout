@@ -9,6 +9,8 @@
 
 [Lu_comment_TextView](https://github.com/hnsugar/Lu_comment_TextView//)
 
+[Lu_PingLunLayout](https://github.com/hnsugar/lu_pinglunlayout/)
+
 2.点赞布局（原理和评论的自定义TextView一样，都是用的SpannableString）
 
 3.图片列表（出门右转，理论上没有数量限制，和listView配合使用也很好，缓存也自己处理了）
@@ -75,7 +77,7 @@ QQ:1264957104
 
 ## 代码 ##
     
- protected void onCreate(Bundle savedInstanceState) {
+######  protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -116,4 +118,4 @@ QQ:1264957104
                 System.out.println("mLu_pingLun_info_entity = [" + mLu_pingLun_info_entity + "], itemPosition = [" + itemPosition + "]");
             }
         });
-    }
+    } 
